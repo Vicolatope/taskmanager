@@ -1,4 +1,5 @@
 # taskmanager
+status : DONE
 Supervisord like program manager
 
 This project is composed of a main program, handling the processes how they have been configured in the config_file
