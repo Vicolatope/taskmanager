@@ -107,6 +107,7 @@ class Process:
 		oldmask = os.umask(self.umask)
 		try:
 			f = open(file, 'w+')
+			os.umask(oldmask)
 			return f
 		except:
 			os.umask(oldmask)
